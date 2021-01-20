@@ -102,7 +102,7 @@ fi
 echo " Done" >&2
 
 printf "Verifying SHA256 checksum..." >&2
-if ! echo "869b1f491d04b712892a4232b2afc24998f05eae4fb114fc6e44f4b1ab67f80c  /tmp/rootfs.tar.gz" | sha256sum -c >/dev/null 2>&1; then
+if ! echo "37b7dc2877bdfbe399e076db02facc81862fb3ee130c37eaa14a35f547eeb1d3  /tmp/rootfs.tar.gz" | sha256sum -c >/dev/null 2>&1; then
 	echo " Failed!" >&2
 	exit 1
 fi
